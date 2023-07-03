@@ -10,4 +10,16 @@
   margin: auto;
   height: 60%;
   border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-card div {
+  flex-grow: 1;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.red-simbol {
+  color: red;
 }
